@@ -191,7 +191,7 @@ export class CKEditorComponent implements AfterViewInit, OnDestroy, ControlValue
 	 */
 	@Input() editorUrl = 'https://cdn.ckeditor.com/4.11.3/standard-all/ckeditor.js';
 
-	constructor( private elementRef: ElementRef<HTMLElement>, private ngZone: NgZone ) {
+	constructor( private elementRef: ElementRef, private ngZone: NgZone ) {
 	}
 
 	ngAfterViewInit(): void {
